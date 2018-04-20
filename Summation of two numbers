@@ -1,0 +1,6 @@
+//simple print of two numbers
+Console.WriteLine(2 + 5);
+
+//assign the two numbers for some variables
+int x = 5 , y = 10 ;
+Console.WriteLine(x + y);
