@@ -1,0 +1,16 @@
+//To swap two numbers we will need to a third variable
+int x = 5 , y = 10 , z;
+
+//Before The Swap
+Console.WriteLine("value of x = {0} , value of y = {1}", x, y);   //Output => value of x = 5 , value of y = 10
+
+z = x;      //assign the value of x to z    now x and z contain the same value of 5
+x = y;      //assign the value of y to x    on this step the previous value of x will removed and contain the new value of 10
+y = z;      //assign the value of z to y    here we will back the first value of x on z to y and the swap operatin end here
+
+//but we still have third variable z and contain the value 5 
+//so to delet the value we assign the (null) to z 
+
+
+//After The Swap
+Console.WriteLine("value of x = {0} , value of y = {1}", x, y);   //Output => value of x = 10 , value of y = 5
