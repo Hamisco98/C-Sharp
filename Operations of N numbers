@@ -1,0 +1,15 @@
+//simple print of two numbers
+Console.WriteLine(2 + 5);
+
+//assign the two numbers for some variables
+int x = 10 , y = 5 ;
+Console.WriteLine(x + y);   //Summation         => Output => 15
+
+Console.WriteLine(x * y);   //Multiplication    => Output => 50
+
+Console.WriteLine(x - y);   //Subtraction       => Output => 5
+
+Console.WriteLine(x / y);   //Division          => Output => 2
+
+Console.WriteLine(x % y);   //remainder         => Output => 0
+
