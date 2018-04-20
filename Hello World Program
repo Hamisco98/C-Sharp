@@ -1,0 +1,9 @@
+//This double slash for single comment
+
+//Hello world withen new line
+Console.Write("Hello World");
+//Output => Hello World
+
+//Hello world with new line
+Console.WriteLine("Hello World");
+//Output => hello World
