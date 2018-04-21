@@ -1,0 +1,8 @@
+//To Remove a specified chrarchter we have a function called Remove and take two parameter => Remove(m,n)
+//m => integer number for the start position to remove
+//n => how many charachter you want to remove
+
+string Hello = "Hello Beautiful World!";
+Console.WriteLine(Hello.Remove(4,7));   //Output => Helliful World!
+
+//start at postion 4 that equal o charachter, and remove 7 charachter that equals  o Beaut
