@@ -1,0 +1,20 @@
+//previously we remove a specific character wsing a funcrion already exists as built-in function
+//now we will create that function by ourself
+//take 2 parameter string name and the number of index to remove
+
+static void Main(string[] args)
+    {
+        string hello = "Hello My love world!";
+        Console.WriteLine(remove_char(hello,10));         //Output => Hello My love world!
+        
+        Console.WriteLine(remove_char("w3resource", 2));
+    }
+
+//here we create a function to remove specific character called remove_char
+//take 2 parameter string name and the number of index to remove
+
+public static string remove_char(string str, int n)
+    {
+        return str.Remove(n, 1);    //use a functoion remove(,)
+        //The number 1 here refer to how many character you wnat to remove  
+    }
